@@ -59,8 +59,6 @@ public class Driver {
 			socketThree.close(); 
 		} catch (SocketException e) {
 			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
 		}
 	}
 
